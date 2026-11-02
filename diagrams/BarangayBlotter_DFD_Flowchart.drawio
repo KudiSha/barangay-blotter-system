@@ -1,0 +1,544 @@
+<mxfile host="app.diagrams.net" pages="7">
+  <diagram id="pg1" name="1 Context Diagram">
+    <mxGraphModel dx="1608" dy="993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="C-T" parent="1" style="text;html=1;fontSize=14;fontStyle=1;align=left;" value="Context Diagram - Barangay Blotter Management System" vertex="1">
+          <mxGeometry height="30" width="700" x="40" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="C-S" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;strokeWidth=2;fontSize=13;fontStyle=1;" value="Barangay Secretary" vertex="1">
+          <mxGeometry height="440" width="180" x="60" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C-P" parent="1" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=2;fontSize=12;" value="0&lt;br&gt;&lt;b&gt;Barangay Blotter&lt;br&gt;Management System&lt;/b&gt;" vertex="1">
+          <mxGeometry height="440" width="240" x="760" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C-01" edge="1" parent="1" source="C-S" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.04545;entryX=0;entryY=0.04545;" target="C-P" value="Login Credentials">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C-02" edge="1" parent="1" source="C-P" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.13636;entryX=1;entryY=0.13636;" target="C-S" value="Login Result">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C-03" edge="1" parent="1" source="C-S" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.22727;entryX=0;entryY=0.22727;" target="C-P" value="Blotter Information">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C-04" edge="1" parent="1" source="C-P" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.31818;entryX=1;entryY=0.31818;" target="C-S" value="Filing Result">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C-05" edge="1" parent="1" source="C-S" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.40909;entryX=0;entryY=0.40909;" target="C-P" value="Status Update Details">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C-06" edge="1" parent="1" source="C-P" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" target="C-S" value="Status Update Result">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C-07" edge="1" parent="1" source="C-S" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.59091;entryX=0;entryY=0.59091;" target="C-P" value="Search Criteria">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C-08" edge="1" parent="1" source="C-P" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.68182;entryX=1;entryY=0.68182;" target="C-S" value="Search Results">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C-09" edge="1" parent="1" source="C-S" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.77273;entryX=0;entryY=0.77273;" target="C-P" value="Hearing Details">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C-10" edge="1" parent="1" source="C-P" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.86364;entryX=1;entryY=0.86364;" target="C-S" value="Hearing Result">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C-11" edge="1" parent="1" source="C-P" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.95455;entryX=1;entryY=0.95455;" target="C-S" value="Summon Letter">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3OcchMVFAPHdofeCt17C-1" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1000" y="293.9999999999998" as="sourcePoint" />
+            <mxPoint x="760" y="293.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pg2" name="2 Level 0 DFD">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1500" pageHeight="950" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Z-T" parent="1" style="text;html=1;fontSize=14;fontStyle=1;align=left;" value="Level 0 DFD - Barangay Blotter Management System" vertex="1">
+          <mxGeometry height="30" width="700" x="40" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-S" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;strokeWidth=2;fontSize=13;fontStyle=1;" value="Barangay Secretary" vertex="1">
+          <mxGeometry height="800" width="160" x="40" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-P1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=2;fontSize=12;" value="1.0&lt;br&gt;&lt;b&gt;Log In&lt;/b&gt;" vertex="1">
+          <mxGeometry height="100" width="220" x="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-P2" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=2;fontSize=12;" value="2.0&lt;br&gt;&lt;b&gt;File Blotter&lt;/b&gt;" vertex="1">
+          <mxGeometry height="100" width="220" x="460" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-P3" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=2;fontSize=12;" value="3.0&lt;br&gt;&lt;b&gt;Update Case Status&lt;/b&gt;" vertex="1">
+          <mxGeometry height="100" width="220" x="460" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-P4" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=2;fontSize=12;" value="4.0&lt;br&gt;&lt;b&gt;Search and View Records&lt;/b&gt;" vertex="1">
+          <mxGeometry height="100" width="220" x="460" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-P5" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=2;fontSize=12;" value="5.0&lt;br&gt;&lt;b&gt;Schedule Hearing and Summon Letter&lt;/b&gt;" vertex="1">
+          <mxGeometry height="120" width="220" x="460" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-D1" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=0;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontSize=12;align=left;spacingLeft=12;" value="D1  User Accounts" vertex="1">
+          <mxGeometry height="100" width="200" x="860" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-D2" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=0;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontSize=12;align=left;spacingLeft=12;" value="D2  Blotter Records" vertex="1">
+          <mxGeometry height="640" width="240" x="1160" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-D3" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=0;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontSize=12;align=left;spacingLeft=12;" value="D3  Hearing Schedules" vertex="1">
+          <mxGeometry height="160" width="200" x="860" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-01" edge="1" parent="1" source="Z-S" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.0375;entryX=0;entryY=0.3;" target="Z-P1" value="Login Credentials">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-02" edge="1" parent="1" source="Z-P1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.7;entryX=1;entryY=0.0875;" target="Z-S" value="Login Result">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-03" edge="1" parent="1" source="Z-S" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.225;entryX=0;entryY=0.3;" target="Z-P2" value="Blotter Information">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-04" edge="1" parent="1" source="Z-P2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.7;entryX=1;entryY=0.275;" target="Z-S" value="Filing Result">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-05" edge="1" parent="1" source="Z-S" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.4125;entryX=0;entryY=0.3;" target="Z-P3" value="Status Update Details">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-06" edge="1" parent="1" source="Z-P3" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.7;entryX=1;entryY=0.4625;" target="Z-S" value="Status Update Result">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-07" edge="1" parent="1" source="Z-S" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.6;entryX=0;entryY=0.3;" target="Z-P4" value="Search Criteria">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-08" edge="1" parent="1" source="Z-P4" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.7;entryX=1;entryY=0.65;" target="Z-S" value="Search Results">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-09" edge="1" parent="1" source="Z-S" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.78;entryX=0;entryY=0.2;" target="Z-P5" value="Hearing Details">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-10" edge="1" parent="1" source="Z-P5" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=1;entryY=0.825;" target="Z-S" value="Hearing Result">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-11" edge="1" parent="1" source="Z-P5" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.8;entryX=1;entryY=0.87;" target="Z-S" value="Summon Letter">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-12" edge="1" parent="1" source="Z-P1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.3;entryX=0;entryY=0.3;" target="Z-D1" value="Default Account">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-13" edge="1" parent="1" source="Z-D1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.7;entryX=1;entryY=0.7;" target="Z-P1" value="Account Records">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-14" edge="1" parent="1" source="Z-P2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.3;entryX=0;entryY=0.046875;" target="Z-D2" value="New Blotter Record">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-15" edge="1" parent="1" source="Z-D2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.109375;entryX=1;entryY=0.7;" target="Z-P2" value="Existing Records">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-16" edge="1" parent="1" source="Z-P3" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.3;entryX=0;entryY=0.28125;" target="Z-D2" value="Updated Status">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-17" edge="1" parent="1" source="Z-D2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.34375;entryX=1;entryY=0.7;" target="Z-P3" value="Blotter Record">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-18" edge="1" parent="1" source="Z-D2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5078125;entryX=1;entryY=0.25;" target="Z-P4" value="Blotter Records">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-19" edge="1" parent="1" source="Z-D3" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.09375;entryX=1;entryY=0.75;" target="Z-P4" value="Hearing Records">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-20" edge="1" parent="1" source="Z-P5" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.2;entryX=0;entryY=0.7125;" target="Z-D3" value="New Hearing Record">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-21" edge="1" parent="1" source="Z-D3" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.9375;entryX=1;entryY=0.5;" target="Z-P5" value="Hearing Record">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z-22" edge="1" parent="1" source="Z-D2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.853125;entryX=1;entryY=0.8;" target="Z-P5" value="Case Records">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UatkOMGpCaeEKmzrl5Ao-1" edge="1" parent="1" source="Z-P1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Z-P1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="730" y="470" as="sourcePoint" />
+            <mxPoint x="780" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UatkOMGpCaeEKmzrl5Ao-2" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="460" y="260" as="sourcePoint" />
+            <mxPoint x="680" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UatkOMGpCaeEKmzrl5Ao-3" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="460" y="409" as="sourcePoint" />
+            <mxPoint x="680" y="409" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UatkOMGpCaeEKmzrl5Ao-4" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="460" y="719.5" as="sourcePoint" />
+            <mxPoint x="680" y="719.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UatkOMGpCaeEKmzrl5Ao-5" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="470" y="569.5" as="sourcePoint" />
+            <mxPoint x="690" y="569.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UatkOMGpCaeEKmzrl5Ao-6" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.19;exitY=0.999;exitDx=0;exitDy=0;entryX=0.196;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="891" y="729.8399999999999" as="sourcePoint" />
+            <mxPoint x="892.2000000000003" y="572.0800000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UatkOMGpCaeEKmzrl5Ao-7" edge="1" parent="1" source="Z-D1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.156;exitY=1;exitDx=0;exitDy=0;entryX=0.196;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="890" y="217.75999999999988" as="sourcePoint" />
+            <mxPoint x="891.2000000000003" y="60.000000000000114" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UatkOMGpCaeEKmzrl5Ao-8" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.173;exitY=1.004;exitDx=0;exitDy=0;entryX=0.196;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1193.5200000000004" y="852.56" as="sourcePoint" />
+            <mxPoint x="1192.2000000000003" y="210.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pg3" name="3 Level 1 - 1.0 Log In">
+    <mxGraphModel dx="1335" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="500" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A-T" parent="1" style="text;html=1;fontSize=14;fontStyle=1;align=left;" value="Level 1 DFD - Process 1.0 Log In" vertex="1">
+          <mxGeometry height="30" width="700" x="40" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="A-S" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;strokeWidth=2;fontSize=13;fontStyle=1;" value="Barangay Secretary" vertex="1">
+          <mxGeometry height="100" width="160" x="40" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="A-11" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=2;fontSize=12;" value="1.1&lt;br&gt;&lt;b&gt;Create Default Account&lt;/b&gt;" vertex="1">
+          <mxGeometry height="100" width="220" x="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A-12" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=2;fontSize=12;" value="1.2&lt;br&gt;&lt;b&gt;Verify Credentials&lt;/b&gt;" vertex="1">
+          <mxGeometry height="100" width="220" x="460" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="A-D1" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=0;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontSize=12;align=left;spacingLeft=12;" value="D1  User Accounts" vertex="1">
+          <mxGeometry height="320" width="200" x="860" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A-1" edge="1" parent="1" source="A-S" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.3;entryX=0;entryY=0.3;" target="A-12" value="Login Credentials">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A-2" edge="1" parent="1" source="A-12" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.7;entryX=1;entryY=0.7;" target="A-S" value="Login Result">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A-3" edge="1" parent="1" source="A-11" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.2;entryX=0;entryY=0.0625;" target="A-D1" value="Default Account">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A-4" edge="1" parent="1" source="A-D1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.25;entryX=1;entryY=0.8;" target="A-11" value="Account Records">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A-5" edge="1" parent="1" source="A-D1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.71875;entryX=1;entryY=0.5;" target="A-12" value="Account Records">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FBiU-3WHqpPdtVKv_EgC-1" edge="1" parent="1" source="A-11" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="A-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="580" y="260" as="sourcePoint" />
+            <mxPoint x="630" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FBiU-3WHqpPdtVKv_EgC-2" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="460" y="289.5" as="sourcePoint" />
+            <mxPoint x="680" y="289.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FBiU-3WHqpPdtVKv_EgC-3" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.175;exitY=0.009;exitDx=0;exitDy=0;entryX=0.18;entryY=0.997;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="893" y="62.879999999999995" as="sourcePoint" />
+            <mxPoint x="894" y="379.03999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pg4" name="4 Level 1 - 2.0 File Blotter">
+    <mxGraphModel dx="1608" dy="993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="500" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="B-T" parent="1" style="text;html=1;fontSize=14;fontStyle=1;align=left;" value="Level 1 DFD - Process 2.0 File Blotter" vertex="1">
+          <mxGeometry height="30" width="700" x="40" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="B-S" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;strokeWidth=2;fontSize=13;fontStyle=1;" value="Barangay Secretary" vertex="1">
+          <mxGeometry height="320" width="160" x="40" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B-21" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=2;fontSize=12;" value="2.1&lt;br&gt;&lt;b&gt;Validate Blotter Information&lt;/b&gt;" vertex="1">
+          <mxGeometry height="100" width="220" x="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B-22" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=2;fontSize=12;" value="2.2&lt;br&gt;&lt;b&gt;Save Blotter Record&lt;/b&gt;" vertex="1">
+          <mxGeometry height="100" width="220" x="460" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="B-D2" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=0;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontSize=12;align=left;spacingLeft=12;" value="D2  Blotter Records" vertex="1">
+          <mxGeometry height="100" width="220" x="860" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="B-1" edge="1" parent="1" source="B-S" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.09375;entryX=0;entryY=0.3;" target="B-21" value="Blotter Information">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B-2" edge="1" parent="1" source="B-21" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.7;entryX=1;entryY=0.21875;" target="B-S" value="Filing Result">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B-3" edge="1" parent="1" source="B-21" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="B-22" value="Valid Blotter Information">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B-4" edge="1" parent="1" source="B-22" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=1;entryY=0.71875;" target="B-S" value="Filing Result">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B-5" edge="1" parent="1" source="B-22" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.3;entryX=0;entryY=0.3;" target="B-D2" value="New Blotter Record">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B-6" edge="1" parent="1" source="B-D2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.7;entryX=1;entryY=0.7;" target="B-22" value="Existing Records">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jVZkvtI1sTpbCUUSNV6s-1" edge="1" parent="1" source="B-21" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="B-21" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="620" y="300" as="sourcePoint" />
+            <mxPoint x="670" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jVZkvtI1sTpbCUUSNV6s-2" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="460" y="289.5" as="sourcePoint" />
+            <mxPoint x="680" y="289.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jVZkvtI1sTpbCUUSNV6s-3" edge="1" parent="1" source="B-D2" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.145;exitY=1.007;exitDx=0;exitDy=0;entryX=0.151;entryY=0.007;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" target="B-D2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="780" y="190" as="sourcePoint" />
+            <mxPoint x="1000" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pg5" name="5 Level 1 - 3.0 Update Case Status">
+    <mxGraphModel dx="1335" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="500" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="D-T" parent="1" style="text;html=1;fontSize=14;fontStyle=1;align=left;" value="Level 1 DFD - Process 3.0 Update Case Status" vertex="1">
+          <mxGeometry height="30" width="700" x="40" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="D-S" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;strokeWidth=2;fontSize=13;fontStyle=1;" value="Barangay Secretary" vertex="1">
+          <mxGeometry height="320" width="160" x="40" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D-31" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=2;fontSize=12;" value="3.1&lt;br&gt;&lt;b&gt;Check Status Details&lt;/b&gt;" vertex="1">
+          <mxGeometry height="100" width="220" x="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D-32" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=2;fontSize=12;" value="3.2&lt;br&gt;&lt;b&gt;Update Case Status&lt;/b&gt;" vertex="1">
+          <mxGeometry height="100" width="220" x="460" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="D-D2" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=0;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontSize=12;align=left;spacingLeft=12;" value="D2  Blotter Records" vertex="1">
+          <mxGeometry height="100" width="220" x="860" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="D-1" edge="1" parent="1" source="D-S" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.09375;entryX=0;entryY=0.3;" target="D-31" value="Status Update Details">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D-2" edge="1" parent="1" source="D-31" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.7;entryX=1;entryY=0.21875;" target="D-S" value="Status Update Result">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D-3" edge="1" parent="1" source="D-31" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="D-32" value="Checked Status Details">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D-4" edge="1" parent="1" source="D-32" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=1;entryY=0.71875;" target="D-S" value="Status Update Result">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D-5" edge="1" parent="1" source="D-32" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.3;entryX=0;entryY=0.3;" target="D-D2" value="Updated Status">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D-6" edge="1" parent="1" source="D-D2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.7;entryX=1;entryY=0.7;" target="D-32" value="Blotter Record">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RbpxxSO4W7W8obQ05PKg-1" edge="1" parent="1" source="D-31" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="D-31" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="290" as="sourcePoint" />
+            <mxPoint x="620" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RbpxxSO4W7W8obQ05PKg-2" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="460" y="289.5" as="sourcePoint" />
+            <mxPoint x="680" y="289.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RbpxxSO4W7W8obQ05PKg-3" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.173;exitY=0.99;exitDx=0;exitDy=0;entryX=0.15;entryY=0.02;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" target="D-D2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="893.06" y="339" as="sourcePoint" />
+            <mxPoint x="891.96" y="243" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pg6" name="6 Level 1 - 4.0 Search and View Records">
+    <mxGraphModel dx="1113" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="550" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="E-T" parent="1" style="text;html=1;fontSize=14;fontStyle=1;align=left;" value="Level 1 DFD - Process 4.0 Search and View Records" vertex="1">
+          <mxGeometry height="30" width="700" x="40" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="E-S" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;strokeWidth=2;fontSize=13;fontStyle=1;" value="Barangay Secretary" vertex="1">
+          <mxGeometry height="400" width="160" x="40" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E-41" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=2;fontSize=12;" value="4.1&lt;br&gt;&lt;b&gt;Check Search Criteria&lt;/b&gt;" vertex="1">
+          <mxGeometry height="100" width="220" x="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E-42" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=2;fontSize=12;" value="4.2&lt;br&gt;&lt;b&gt;Retrieve Matching Records&lt;/b&gt;" vertex="1">
+          <mxGeometry height="200" width="220" x="460" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="E-D2" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=0;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontSize=12;align=left;spacingLeft=12;" value="D2  Blotter Records" vertex="1">
+          <mxGeometry height="80" width="220" x="860" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="E-D3" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=0;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontSize=12;align=left;spacingLeft=12;" value="D3  Hearing Schedules" vertex="1">
+          <mxGeometry height="80" width="220" x="860" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="E-1" edge="1" parent="1" source="E-S" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.075;entryX=0;entryY=0.3;" target="E-41" value="Search Criteria">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E-2" edge="1" parent="1" source="E-41" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.7;entryX=1;entryY=0.175;" target="E-S" value="Search Results">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E-3" edge="1" parent="1" source="E-41" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="E-42" value="Valid Search Criteria">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E-4" edge="1" parent="1" source="E-42" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=1;entryY=0.7;" target="E-S" value="Search Results">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E-5" edge="1" parent="1" source="E-D2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=1;entryY=0.2;" target="E-42" value="Blotter Records">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E-6" edge="1" parent="1" source="E-D3" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=1;entryY=0.8;" target="E-42" value="Hearing Records">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hBK3qELXE9rYeMUIy_mu-1" edge="1" parent="1" source="E-42" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="E-42" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="580" y="450" as="sourcePoint" />
+            <mxPoint x="630" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hBK3qELXE9rYeMUIy_mu-2" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="460" y="109.5" as="sourcePoint" />
+            <mxPoint x="680" y="109.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hBK3qELXE9rYeMUIy_mu-3" edge="1" parent="1" source="E-D2" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.146;exitY=0.978;exitDx=0;exitDy=0;entryX=0.146;entryY=-0.005;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" target="E-D2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="750" y="200" as="sourcePoint" />
+            <mxPoint x="970" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hBK3qELXE9rYeMUIy_mu-4" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.146;exitY=0.978;exitDx=0;exitDy=0;entryX=0.146;entryY=-0.005;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="893" y="439" as="sourcePoint" />
+            <mxPoint x="893" y="361" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pg7" name="7 Level 1 - 5.0 Schedule Hearing and Summon Letter">
+    <mxGraphModel dx="1391" dy="858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="F-T" parent="1" style="text;html=1;fontSize=14;fontStyle=1;align=left;" value="Level 1 DFD - Process 5.0 Schedule Hearing and Summon Letter" vertex="1">
+          <mxGeometry height="30" width="800" x="40" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="F-S" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;strokeWidth=2;fontSize=13;fontStyle=1;" value="Barangay Secretary" vertex="1">
+          <mxGeometry height="500" width="160" x="40" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F-51" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=2;fontSize=12;" value="5.1&lt;br&gt;&lt;b&gt;Check Hearing Request&lt;/b&gt;" vertex="1">
+          <mxGeometry height="100" width="220" x="460" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F-52" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=2;fontSize=12;" value="5.2&lt;br&gt;&lt;b&gt;Save Hearing Schedule&lt;/b&gt;" vertex="1">
+          <mxGeometry height="100" width="220" x="460" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="F-53" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=2;fontSize=12;" value="5.3&lt;br&gt;&lt;b&gt;Generate Summon Letter&lt;/b&gt;" vertex="1">
+          <mxGeometry height="160" width="220" x="460" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="F-D3" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=0;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontSize=12;align=left;spacingLeft=12;" value="D3  Hearing Schedules" vertex="1">
+          <mxGeometry height="250" width="200" x="860" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="F-D2" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=0;fillColor=#F5F5F5;strokeColor=#666666;strokeWidth=2;fontSize=12;align=left;spacingLeft=12;" value="D2  Blotter Records" vertex="1">
+          <mxGeometry height="500" width="220" x="1160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F-1" edge="1" parent="1" source="F-S" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.06;entryX=0;entryY=0.3;" target="F-51" value="Hearing Details">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F-2" edge="1" parent="1" source="F-51" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.7;entryX=1;entryY=0.14;" target="F-S" value="Hearing Result">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F-3" edge="1" parent="1" source="F-D2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.1;entryX=1;entryY=0.5;" target="F-51" value="Case Records">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F-4" edge="1" parent="1" source="F-51" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="F-52" value="Valid Hearing Details">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F-5" edge="1" parent="1" source="F-52" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;entryX=0;entryY=0.16;" target="F-D3" value="New Hearing Record">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F-6" edge="1" parent="1" source="F-52" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=1;entryY=0.46;" target="F-S" value="Hearing Result">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F-7" edge="1" parent="1" source="F-52" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="F-53" value="Saved Hearing">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F-8" edge="1" parent="1" source="F-D2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.96;entryX=1;entryY=0.75;" target="F-53" value="Case Records">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F-9" edge="1" parent="1" source="F-D3" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.84;entryX=1;entryY=0.25;" target="F-53" value="Hearing Record">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F-10" edge="1" parent="1" source="F-53" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.25;entryX=1;entryY=0.8;" target="F-S" value="Hearing Result">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F-11" edge="1" parent="1" source="F-53" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;fontSize=11;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.75;entryX=1;entryY=0.96;" target="F-S" value="Summon Letter">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kSMRcobKJG0uPJTxV_2H-1" edge="1" parent="1" source="F-51" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="F-51" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="690" y="380" as="sourcePoint" />
+            <mxPoint x="740" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kSMRcobKJG0uPJTxV_2H-2" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="460" y="289.5" as="sourcePoint" />
+            <mxPoint x="680" y="289.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kSMRcobKJG0uPJTxV_2H-3" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="460" y="500" as="sourcePoint" />
+            <mxPoint x="680" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kSMRcobKJG0uPJTxV_2H-4" edge="1" parent="1" source="F-D3" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.167;exitY=0.01;exitDx=0;exitDy=0;entryX=0.167;entryY=1.001;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" target="F-D3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="760" y="390" as="sourcePoint" />
+            <mxPoint x="980" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kSMRcobKJG0uPJTxV_2H-5" edge="1" parent="1" source="F-D2" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.147;exitY=-0.005;exitDx=0;exitDy=0;entryX=0.152;entryY=1.002;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" target="F-D2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1190" y="60" as="sourcePoint" />
+            <mxPoint x="1190" y="307" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
